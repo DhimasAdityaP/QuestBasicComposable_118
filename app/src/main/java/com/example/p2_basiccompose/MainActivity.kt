@@ -20,6 +20,7 @@ import androidx.compose.ui.focus.focusModifier
 import androidx.compose.ui.input.key.Key.Companion.I
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.TextStyle
+import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
@@ -57,11 +58,11 @@ fun BasicLayout( modifier: Modifier = Modifier) {
             id=R.drawable.umy1
         ),
             contentDescription = null,
-            modifier=Modifier.padding(top=40.dp).size(250.dp)
+            modifier=Modifier.padding(top=20.dp, bottom= 20.dp).size(250.dp)
         )
         Text(
-            text ="Nama"
-
+            text ="Nama",
+            style = TextStyle(fontSize = 20.sp)
         )
         Text(
             text="Dhimas Aditya Pratama"
