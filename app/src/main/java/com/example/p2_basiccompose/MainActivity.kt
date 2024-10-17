@@ -38,7 +38,10 @@ class MainActivity : ComponentActivity() {
         }
     }
 
+@Composable
+fun BasicLayout( modifier: Modifier = Modifier){
 
+}
 
 
 @Preview(showBackground = true)
