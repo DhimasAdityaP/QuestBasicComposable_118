@@ -17,6 +17,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.focus.focusModifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.input.key.Key.Companion.I
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.TextStyle
@@ -65,7 +66,8 @@ fun BasicLayout( modifier: Modifier = Modifier) {
             style = TextStyle(fontSize = 20.sp)
         )
         Text(
-            text="Dhimas Aditya Pratama"
+            text="Dhimas Aditya Pratama",
+            style = TextStyle(fontSize = 18.sp,color= Color.Red)
         )
     }
 }
