@@ -69,6 +69,9 @@ fun BasicLayout( modifier: Modifier = Modifier) {
             text="Dhimas Aditya Pratama",
             style = TextStyle(fontSize = 18.sp,color= Color.Red)
         )
+        Text(
+            text="20200140118"
+        )
     }
 }
 
