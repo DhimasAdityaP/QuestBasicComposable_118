@@ -73,6 +73,10 @@ fun BasicLayout( modifier: Modifier = Modifier) {
             text="20200140118",
             style=TextStyle(fontSize = 38.sp, fontWeight = FontWeight.Bold)
         )
+        Image(
+            painter = painterResource(id=R.drawable.foto),
+            contentDescription = "Profile Image",
+        )
     }
 }
 
