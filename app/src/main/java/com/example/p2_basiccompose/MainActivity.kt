@@ -32,11 +32,15 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             P2_BasicComposeTheme {
-
+                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
+                    BasicLayout(
+                        modifier = Modifier.padding(innerPadding)
+                    )
                 }
             }
         }
     }
+}
 
 @Composable
 fun BasicLayout( modifier: Modifier = Modifier){
