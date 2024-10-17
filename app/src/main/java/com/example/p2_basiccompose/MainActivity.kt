@@ -43,10 +43,11 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun BasicLayout( modifier: Modifier = Modifier){
-    Column (
-    ){
-
+fun BasicLayout( modifier: Modifier = Modifier) {
+    Column(
+    ) {
+        Text(text = "Login",)
+            Text(text = "Ini adalah Halaman Login")
     }
 }
 
@@ -55,5 +56,6 @@ fun BasicLayout( modifier: Modifier = Modifier){
 @Composable
 fun GreetingPreview() {
     P2_BasicComposeTheme {
+        BasicLayout()
     }
 }
