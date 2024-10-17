@@ -57,6 +57,7 @@ fun BasicLayout( modifier: Modifier = Modifier) {
             id=R.drawable.umy1
         ),
             contentDescription = null,
+            modifier=Modifier.padding(top=40.dp).size(250.dp)
         )
     }
 }
